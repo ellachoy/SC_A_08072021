@@ -1,0 +1,57 @@
+
+main {
+    position: relative;
+    background:blue;
+  }
+  #btn_up,#btn_down,#btn_left,#btn_right{
+    position: absolute;
+    transform: translate(-50%, -50%);
+    width: 0;
+    height: 0;
+    border-radius: 100em;
+  }
+#btn_up {
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top: 100px solid red;
+    left: 70px;
+    top: 300px;
+  }
+  #btn_right {
+    border-top: 50px solid transparent;
+    border-right: 100px solid blue;
+    border-bottom: 100px solid transparent;
+    left: 60px;
+    top: 60px;
+  }
+  #btn_left {
+    border-top: 50px solid transparent;
+    border-left: 100px solid gold;
+    border-bottom: 50px solid transparent;
+    left: 150px;
+    top: 250;
+  }
+  #btn_down {
+    border-bottom: 50px solid green;
+    border-right: 100px solid transparent;
+    border-left: 50px solid transparent;
+    left: 350px;
+    top: 450px;
+  }
+
+  
+
+
+
+
+
+
+
+
+Design Nr.1
+Farben: #E3516E, #F7F3D7, #51B5A9, #FADE8B
+
+
+Design Nr.2
+Farben: #191210, #ECA03D, #84271C
+

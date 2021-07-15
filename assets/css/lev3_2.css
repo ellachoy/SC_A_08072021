@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&display=swap");
+body {
+  margin: 0;
+}
+/* general  */
+
+/* main {
+  position: relative;
+} */
+.bild {
+  position: relative;
+  background: url(../img/univ.jpeg) center/cover no-repeat;
+  width: 100%;
+  min-height: 100vh;
+}
+/* Modal Screen */
+
+i {
+  position: absolute;
+  color: red;
+  background-color: white;
+  right: 30%;
+  top: 45%;
+  transform: translate(-50%, -50%);
+  border: 3px solid red;
+  border-radius: 2em;
+  z-index: 3;
+}
+.container:hover {
+  color: yellow;
+}
+.contain:aktive {
+}
+.container {
+  position: absolute;
+  border: 1px solid #f62b54;
+  border-radius: 1em;
+  width: 30em 3em;
+  background-color: red;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+.container h1,
+p {
+  color: white;
+  font-family: "Poppins", sans-serif;
+}
+.container h1 {
+  text-decoration: underline;
+  padding: 0.5em 0 0 1.5em;
+  font-size: 3em;
+  margin-bottom: 0;
+}
+.container p {
+  padding: 0 14em 0 3em;
+  margin-bottom: 3em;
+}
+
+/* <i class="far fa-times-circle"></i>
+
+font-family: 'Poppins', sans-serif; */

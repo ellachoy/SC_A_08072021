@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display&family=Poppins:wght@300&display=swap");
+body {
+  /* height: 100vh; */
+  margin: 0;
+}
+section {
+  background: url(../img/webp.jpg) right/contain no-repeat;
+  background-color: rgb(237, 239, 226);
+  width: 100%;
+  min-height: 100vh;
+  /* height: 100%; */
+  position: relative;
+}
+div {
+  position: absolute;
+  width: 430px;
+  height: 400px;
+  top: 46%;
+  left: 6%;
+}
+div h1 {
+  font-family: "Playfair Display", serif;
+  font-size: 50px;
+  margin-bottom: 18px;
+  padding-right: 25%;
+  text-transform: capitalize;
+}
+div p {
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-bottom: 50px;
+}
+a {
+  border: orange solid 1px;
+  border-radius: 35px;
+  padding: 10px 25%;
+  text-decoration: none;
+  background-color: orange;
+  color: black;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+  margin-top: 30px;
+}

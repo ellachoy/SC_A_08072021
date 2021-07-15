@@ -1,9 +1,13 @@
+body {
+  margin: 0;
+  padding: 0 30%;
+}
 section {
   position: relative;
 }
 .circle1 {
   height: 300px;
-  width: 300px;
+  width: 400px;
   background: gold;
   position: absolute;
   top: 100px;
@@ -12,8 +16,8 @@ section {
   z-index: 1;
 }
 .circle2 {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 50px;
   background: #fff;
   position: absolute;
   top: 180px;
@@ -22,8 +26,8 @@ section {
   z-index: 2;
 }
 .circle3 {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 50px;
   background: #fff;
   position: absolute;
   top: 180px;
@@ -52,11 +56,11 @@ section {
   z-index: 3;
 }
 .circle6 {
-  height: 80px;
+  height: 20px;
   width: 80px;
-  background: #000;
+  background: red;
   position: absolute;
-  top: 280px;
+  top: 300px;
   border-radius: 50%;
   left: 36%;
   z-index: 2;
